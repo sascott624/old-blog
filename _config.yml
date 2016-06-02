@@ -1,0 +1,21 @@
+# Site settings
+title: Scotty doesn't know, but she's learning
+header-img: img/home-bg.png
+email: sascott624@gmail.com
+copyright_name: sascott624
+description: > # this means to ignore newlines until "baseurl:"
+  guides, walkthroughs, and streams of consciousness as I learn to code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  sascott624
+learn_profile: sascott624
+email_username: sascott624@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
