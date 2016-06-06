@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "**Scotty starts coding**"
-date:   2016-06-02 18:24:52 +0000
+title:  "Scotty starts coding"
+date:   2016-06-02 14:24:53 -0400
 ---
 
 
