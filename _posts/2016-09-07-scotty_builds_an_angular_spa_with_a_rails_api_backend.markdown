@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Scotty Builds an Angular SPA with a Rails API backend"
+date:   2016-09-07 14:59:53 -0400
+---
+
 #Scotty Builds an Angular SPA with a Rails API backend
 
 It's crazy to think that a couple of months ago, the title of this blog would have been absolute jibberish. Angular? SPA? API? Yet here we are. 
