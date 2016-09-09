@@ -4,8 +4,6 @@ title:  "Scotty Builds an Angular SPA with a Rails API backend"
 date:   2016-09-07 14:59:53 -0400
 ---
 
-#Scotty Builds an Angular SPA with a Rails API backend
-
 It's crazy to think that a couple of months ago, the title of this blog would have been absolute jibberish. Angular? SPA? API? Yet here we are. 
 
 This assignment wasn't without its ups and downs. I was excited at the beginning, because I really enjoy coding in Angular - for whatever reason, this language just clicked for me, and I caught on to the ebb and flow of modules, controllers, services etc. fairly quickly. This understanding, coupled with the anticipated magic of watching every piece of the puzzle come together, made me eager to dive in and start coding.
