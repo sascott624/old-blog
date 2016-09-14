@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scotty Leverages AngularJS with a Rails API"
+title:  "Walkthrough: AngularJS with a Rails API"
 date:   2016-09-14 17:18:00 -0000
 ---
 
