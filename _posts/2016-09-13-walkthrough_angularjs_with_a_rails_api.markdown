@@ -9,7 +9,7 @@ There are a lot of small, but necessary steps required to get a new app up and r
 N.B. - I didn't set up any schema, migrations, or any of the back end data. This walkthrough is simply to get your Rails app up and running and ready to support an AngularJS front end!
 
 
-# SETUP #
+#SETUP#
 
 First and foremost, I like to set up my Rails API. I know some people prefer to work in the opposite manner (creating the front end first), but I like to build from the bottom up.
 
@@ -39,7 +39,7 @@ I downloaded the files and stored under <em>your-app-name/app/assets/javascripts
 //= require angular-rails-templates
 ```
 
-## BEGIN ANGULAR SETUP ##
+#BEGIN ANGULAR SETUP#
 
 I like to make a separate controller with just an index method in order to render all of our Angular routes/states:
 
@@ -83,7 +83,7 @@ Don't forget to include ```ng-app``` and remove turbolinks from the html in <em>
 </html>
 ```
 
-Now, let's define our ```app``` module in your-app-name/app/assets/javascripts/app.js:
+Now, let's define our ```app``` module in <em>your-app-name/app/assets/javascripts/app.js</em>:
 
 ```
 angular
