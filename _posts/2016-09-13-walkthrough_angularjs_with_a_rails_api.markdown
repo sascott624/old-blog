@@ -44,6 +44,7 @@ I downloaded the files and stored under <em>your-app-name/app/assets/javascripts
 I like to make a separate controller with just an index method in order to render all of our Angular routes/states:
 
 <em># your-app-name/app/controllers/your-app-name_controller.rb</em>
+
 ```
 class YourAppNameController < ApplicationController
 
