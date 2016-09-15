@@ -9,13 +9,13 @@ There are a lot of small, but necessary steps required to get a new app up and r
 N.B. - I didn't set up any schema, migrations, or any of the back end data. This walkthrough is simply to get your Rails app up and running and ready to support an AngularJS front end!
 
 
-## SETUP ##
+# SETUP #
 
 First and foremost, I like to set up my Rails API. I know some people prefer to work in the opposite manner (creating the front end first), but I like to build from the bottom up.
 
 ```cd``` into the directory where you'd like to save your app, and enter ```rails new <YOUR_APP_NAME>``` to create the default Rails file structure (don't forget to ```cd``` into your app's directory!)
 
-## DEPENDENCIES ##
+# DEPENDENCIES #
 
 Now, add the following gems to your Gemfile:
 
@@ -29,9 +29,10 @@ Then run ```bundle install```
 
 You'll also need to include angular.js, angular-ui-router.js (if you're using ui-router), and angular-rails-templates.js either via ```<script>``` tags linking the CDNs, or by downloading and hosting the files locally.
 
-I downloaded the files and stored under your-app-name/app/assets/javascripts, and included in my manifest:
+I downloaded the files and stored under <em>your-app-name/app/assets/javascripts</em>, and included in my manifest:
 
 <em># your-app-name/app/assets/javascripts/application.js</em>
+
 ```
 //= require angular
 //= require angular-ui-router
@@ -52,17 +53,17 @@ class YourAppNameController < ApplicationController
 end
 ```
 
-then, in our config/routes.rb, we identify the above page as our root:
+then, in our <em>config/routes.rb</em>, we identify the above page as our root:
 
 ```root to: 'your_app_name#index'```
 
-finally, in app/views/your-app-name/index.html.erb, we add our angular view:
+finally, in <em>app/views/your-app-name/index.html.erb</em>, we add our angular view:
 
 ```<ui-view> </ui-view>```
 
 (or ```<ng-view> </ng-view>``` if you're using ng-route)
 
-Don't forget to include ```ng-app``` and remove turbolinks from the html in your-app-name/app/views/layouts/application.html.erb:
+Don't forget to include ```ng-app``` and remove turbolinks from the html in <em>your-app-name/app/views/layouts/application.html.erb</em>:
 
 ```
 <!DOCTYPE html>
