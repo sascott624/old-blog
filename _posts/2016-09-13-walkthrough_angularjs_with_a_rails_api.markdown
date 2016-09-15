@@ -9,13 +9,13 @@ There are a lot of small, but necessary steps required to get a new app up and r
 N.B. - I didn't set up any schema, migrations, or any of the back end data. This walkthrough is simply to get your Rails app up and running and ready to support an AngularJS front end!
 
 
-#SETUP
+#SETUP#
 
 First and foremost, I like to set up my Rails API. I know some people prefer to work in the opposite manner (creating the front end first), but I like to build from the bottom up.
 
 ```cd``` into the directory where you'd like to save your app, and enter ```rails new <YOUR_APP_NAME>``` to create the default Rails file structure (don't forget to ```cd``` into your app's directory!)
 
-# DEPENDENCIES #
+#DEPENDENCIES#
 
 Now, add the following gems to your Gemfile:
 
